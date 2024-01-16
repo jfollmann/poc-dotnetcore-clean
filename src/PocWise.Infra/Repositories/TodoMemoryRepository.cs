@@ -9,14 +9,14 @@ public class TodoMemoryRepository : ITodoRepository
 
   public TodoMemoryRepository()
   {
-    this.dbTodos = new List<Todo>()
-    {
+    this.dbTodos =
+    [
       new("1", "Sample Todo 1"),
       new("2", "Sample Todo 2"),
       new("3", "Sample Todo 3"),
       new("4", "Sample Todo 4"),
       new("5", "Sample Todo 5"),
-    };
+    ];
   }
 
   private Todo? GetItem(string Id)

@@ -3,14 +3,9 @@ using PocWise.Domain.Repositories;
 
 namespace PocWise.Domain.UseCases.ListTodo
 {
-  public class ListTodoUseCase : IListTodoUseCase
+  public class ListTodoUseCase(ITodoRepository repository) : IListTodoUseCase
   {
-    private readonly ITodoRepository repository;
-
-    public ListTodoUseCase(ITodoRepository repository)
-    {
-      this.repository = repository;
-    }
+    private readonly ITodoRepository repository = repository;
 
     public List<Todo> Handler()
     {
