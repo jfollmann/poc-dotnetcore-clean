@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\src\PocWise.Domain\PocWise.Domain.csproj" />
+    <ProjectReference Include="..\..\src\PocWise.Application\PocWise.Application.csproj" />
   </ItemGroup>
 
 </Project>

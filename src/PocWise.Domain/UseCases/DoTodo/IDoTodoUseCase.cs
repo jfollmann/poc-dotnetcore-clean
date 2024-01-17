@@ -1,6 +1,6 @@
 namespace PocWise.Domain.UseCases.DoTodo
 {
-  public interface IDoTodo
+  public interface IDoTodoUseCase
   {
     void Handler(string id);
   }

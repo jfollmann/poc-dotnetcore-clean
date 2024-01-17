@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\PocWise.Domain\PocWise.Domain.csproj" />
     <ProjectReference Include="..\PocWise.Infra\PocWise.Infra.csproj" />
+    <ProjectReference Include="..\PocWise.Application\PocWise.Application.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

@@ -2,7 +2,7 @@ using PocWise.Domain.Repositories;
 
 namespace PocWise.Domain.UseCases.DoTodo
 {
-  public class DoTodoUseCase(ITodoRepository repository) : IDoTodo
+  public class DoTodoUseCase(ITodoRepository repository) : IDoTodoUseCase
   {
     private readonly ITodoRepository repository = repository;
 
