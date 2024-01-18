@@ -3,7 +3,7 @@ using PocWise.Main.Factories.Repositories;
 
 namespace PocWise.Main.Factories.UseCases
 {
-  public class DoTodoUseCaseFactory
+  public static class DoTodoUseCaseFactory
   {
     public static DoTodoUseCase Make()
     {

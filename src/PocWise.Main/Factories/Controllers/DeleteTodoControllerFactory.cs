@@ -3,7 +3,7 @@ using PocWise.Main.Factories.UseCases;
 
 namespace PocWise.Main.Factories.Controllers
 {
-  public class DeleteTodoControllerFactory
+  public static class DeleteTodoControllerFactory
   {
     public static DeleteTodoController Make()
     {
