@@ -73,3 +73,4 @@ dotnet add tests/PocWise.Domain.Tests/PocWise.Domain.Tests.csproj package Moq
 ## VsCode extensions
 - https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp
 - https://marketplace.visualstudio.com/items?itemName=kreativ-software.csharpextensions
+- https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit
